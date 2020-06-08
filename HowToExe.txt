@@ -1,0 +1,3 @@
+bison -d mylang.y
+flex mylang.l
+gcc lex.yy.c mylang.tab.c -o mylang.exe -w
